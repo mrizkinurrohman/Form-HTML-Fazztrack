@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Register</title>
+    <style>
+      .container {
+        /* border: 2px solid black; */
+        margin-top: 10px;
+        margin-left: 30px;
+        width: 50%;
+        background-color: white;
+      }
+
+      .text h3 {
+        width: 562px;
+        height: 111px;
+        font-size: 30px;
+        font-weight: 500px;
+        line-height: 36.57px;
+        font-family: Montserrat;
+        color: rgba(11, 19, 42, 1);
+        border: 2px solid black;
+      }
+
+      .text p {
+        width: 562px;
+        height: 81px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26.62px;
+        color: rgba(79, 86, 101, 1);
+      }
+
+      .icon {
+        /* border: 1px solid rgba(232, 232, 232, 1); */
+        width: 562px;
+        height: 20px;
+        padding: 10px;
+        gap: 10px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 100px;
+        border: 1px solid rgba(232, 232, 232, 1);
+        text-align: center;
+      }
+
+      .icon .i-google {
+        width: 231px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .icon .i-google img {
+        width: 24px;
+      }
+
+      .icon .i-google p {
+        width: 185px;
+        height: 22px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.94px;
+      }
+
+      .icon2 {
+        margin-top: 10px;
+        width: 562px;
+        height: 20px;
+        padding: 10px;
+        gap: 10px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 100px;
+        border: 1px solid rgba(232, 232, 232, 1);
+        padding-bottom: 10px;
+      }
+
+      .icon2 .i-facebook {
+        width: 231px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .icon2 .i-facebook img {
+        width: 24px;
+      }
+
+      .icon2 .i-facebook p {
+        width: 185px;
+        height: 22px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.94px;
+      }
+
+      .or {
+        margin-top: 20px;
+        width: 562px;
+      }
+
+      .or hr {
+        border: 1px solid rgba(232, 232, 232, 1);
+      }
+
+      form {
+        margin-top: 30px;
+        width: 562px;
+        font-family: Montserrat;
+      }
+
+      label {
+        font-size: 16px;
+      }
+
+      .form-input {
+        margin-top: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 44px;
+        border-radius: 8px;
+        border: 1px solid rgba(222, 222, 222, 1);
+        padding: 14px 13px 14px 13px;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+
+      .button {
+        width: 562px;
+        height: 50px;
+        background: rgba(41, 72, 255, 1);
+        border-radius: 6px;
+        border: none;
+        padding: 10px;
+        color: white;
+      }
+
+      form h5 {
+        margin-top: 15px;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        color: rgba(79, 86, 101, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        <h3>
+          Start Accessing Banking Needs With All Devices and All Platforms With
+          30.000+ Users
+        </h3>
+        <p>
+          Transfering money is eassier than ever, you can access Zwallet
+          wherever you are. Desktop, laptop, mobile phone? we cover all of that
+          for you!
+        </p>
+      </div>
+      <div class="icon">
+        <div class="i-google">
+          <img src="./assets/icon-goole.png" alt="google" />
+          <p>Sign in With Google</p>
+        </div>
+      </div>
+      <div class="icon2">
+        <div class="i-facebook">
+          <img src="./assets/facebook.png" alt="facebook" />
+          <p>Sign in With Facebook</p>
+        </div>
+      </div>
+      <div class="or"><hr /></div>
+
+      <!-- untuk form register -->
+      <form>
+        <h3>Sign Up Your Account</h3>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-input" />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="form-input"
+        />
+        <label for="confirm">ConfirmPassword</label>
+        <input type="password" name="confirm" id="confirm" class="form-input" />
+        <button type="submit" class="button">Sign Up</button>
+        <h5>Have An Account? <a href="#"></a>Login</h5>
+      </form>
+    </div>
+  </body>
+</html>
